@@ -21,8 +21,8 @@ prompt = """
 -   **风格**：专业、客观、条理清晰。使用中文。
 
 #### Step 3: 路径规划与生成
-1.  **生成 Slug**：根据文章标题或核心主题，生成一个简短的英文 Slug（小写，连字符分隔，例如 `ai-coding-guide`）。
-2.  **构建路径**：结合当前日期，格式为 `post/YYYY/MM/DD-<Slug>.md`。（例如：`post/2026/01/29-ai-coding-guide.md`）。
+1.  **生成 Slug**：根据文章标题或核心主题，生成一个简短的中文 Slug（例如 `ai-编程指南`）。
+2.  **构建路径**：结合当前日期，格式为 `post/YYYY/MM/DD-<Slug>.md`。（例如：`post/2026/01/29-ai-编程指南.md`）。
 3.  **执行命令**：调用 `run_shell_command` 执行 `hugo new <构建路径>`。
 
 #### Step 4: 合并内容
